@@ -1,7 +1,7 @@
 import React from "react";
 
 export const NavLink = ({ href, title }) => {
-    const linkClass = `block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded-full hover:text-white ${
+    const linkClass = `block py-2 pl-3 pr-4 text-white sm:text-xl rounded-full hover:text-[#ADB7BE] ${
         title === 'Log In' ? 'md:p-0 border border-red-500 p-3 md:py-2 md:pl-3 md:pr-4 bg-[#DD003F]' : 'md:p-0 '
       }`;
 
